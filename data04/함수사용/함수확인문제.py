@@ -1,0 +1,38 @@
+from 함수정의.문제함수 import *
+
+# 조건 : 파라메터 넘기는 함수 3개이상, 
+#       리턴 받아서 처리하는거 2개 이상
+# 문제1 : exam01()
+id = input('id 입력 : ')
+name = input('이름 입력 : ')
+login(id, name)
+# 문제2 : exam02()
+x = int(input('숫자1 : '))
+y = int(input('숫자2 : '))
+cal(x, y)
+# 문제3 : exam03()
+name2 = input('이름 : ')
+current_age = input('나이 : ')
+age(name2, current_age)
+# 문제4 : exam04()
+for _ in range(2):
+    money = int(input('얼마 받았어?'))
+    allowance(money)
+# 문제5 : exam05()
+for _ in range(2):
+    num = int(input('숫자 입력 : '))
+    ood_even(num)
+# 문제6 : exam06()
+target = int(input('실적을 입력하세요. : '))
+sales_recourds(target)
+# 문제7 : exam07()
+name3 = input('미사일의 이름은 : ')
+start = int(input('미사일 시작값은 : '))
+move = float(input('미사일 이동값은 : '))
+missile(name3, start, move)
+# 문제8 : exam08()
+money2 = int(input('받은돈 : '))
+buy = int(input('상품의 총액 : '))
+receipt(money2, buy)
+# 문제9 : exam09()
+star()
